@@ -15,7 +15,6 @@ function HeaderComp() {
             marginLeft: 10,
             padding: -10,
             color: "#0062FF",
-            textAlign: "center",
             fontSize: 30,
             lineHeight: 1,
           }}
