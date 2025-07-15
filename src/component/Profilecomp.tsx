@@ -70,6 +70,18 @@ function Profilecomp() {
           alt=""
         />
       </div>
+      <div>
+        <h2>A Developer with curious mind.</h2>
+        <p>
+          I develop high quality human centered products with outstanding
+          digital experience.
+        </p>
+        <h2>I understand the language of the App.</h2>
+        <p>
+          With this understanding, I provide strategic solution for the user
+          experience.
+        </p>
+      </div>
     </div>
   );
 }
