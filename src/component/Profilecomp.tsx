@@ -1,3 +1,5 @@
+import image from "../assets/image.jpeg";
+
 function Profilecomp() {
   return (
     <div>
@@ -54,8 +56,19 @@ function Profilecomp() {
           impactful solutions.
         </p>
       </p>
-      <div>
-        <img src="" alt="" />
+      <div
+        style={{
+          width: "50%",
+          height: 350,
+          marginBlock: 50,
+          marginInline: "auto",
+        }}
+      >
+        <img
+          style={{ width: "100%", height: "100%", borderRadius: 10 }}
+          src={image}
+          alt=""
+        />
       </div>
     </div>
   );
