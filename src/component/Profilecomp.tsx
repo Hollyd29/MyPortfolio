@@ -2,13 +2,13 @@ import image from "../assets/image.jpeg";
 
 function Profilecomp() {
   return (
-    <div>
-      <h1 style={{ marginTop: 70, textAlign: "center" }}>Oladimeji E.O.</h1>
+    <div style={{ padding: 20 }}>
+      <h1 style={{ marginTop: 70, textAlign: "center" }}>Oladimeji .E.O.</h1>
       <p style={{ textAlign: "center", fontSize: 18 }}>
         I am a{" "}
         <span
           style={{
-            fontWeight: 600,
+            fontWeight: 800,
             color: "#0062FF",
             textTransform: "capitalize",
           }}
@@ -18,7 +18,7 @@ function Profilecomp() {
         with strong expertise in{" "}
         <span
           style={{
-            fontWeight: 600,
+            fontWeight: 800,
             color: "#0062FF",
             textTransform: "capitalize",
           }}
@@ -31,7 +31,7 @@ function Profilecomp() {
           I specialize in {""}
           <span
             style={{
-              fontWeight: 600,
+              fontWeight: 800,
               color: "#0062FF",
               textTransform: "capitalize",
             }}
@@ -70,13 +70,13 @@ function Profilecomp() {
           alt=""
         />
       </div>
-      <div>
+      <div style={{ textAlign: "center" }}>
         <h2>A Developer with curious mind.</h2>
         <p>
           I develop high quality human centered products with outstanding
           digital experience.
         </p>
-        <h2>I understand the language of the App.</h2>
+        <h2 style={{ marginTop: 50 }}>I understand the language of the App.</h2>
         <p>
           With this understanding, I provide strategic solution for the user
           experience.
