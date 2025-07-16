@@ -3,13 +3,15 @@ function HeaderComp() {
     <div
       style={{
         backgroundColor: "#b0e0feff",
+        position: "fixed",
+        top: 0,
+        left: 0,
+        width: "100%",
+        zIndex: 1000,
+        borderBottom: "1px solid #80808099",
       }}
     >
-      <div
-        style={{
-          border: "2px solid red",
-        }}
-      >
+      <div>
         <h3
           style={{
             marginLeft: 10,

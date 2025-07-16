@@ -3,7 +3,7 @@ import image from "../assets/image.jpeg";
 function Profilecomp() {
   return (
     <div style={{ padding: 20 }}>
-      <h1 style={{ marginTop: 70, textAlign: "center" }}>Oladimeji .E.O.</h1>
+      <h1 style={{ marginTop: 120, textAlign: "center" }}>Oladimeji .E.O.</h1>
       <p style={{ textAlign: "center", fontSize: 18 }}>
         I am a{" "}
         <span

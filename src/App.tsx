@@ -5,7 +5,7 @@ import Profilecomp from "./component/Profilecomp";
 
 function App() {
   return (
-    <div>
+    <div style={{ position: "relative" }}>
       <HeaderComp />
       <Profilecomp />
       <MyStoryComp />
