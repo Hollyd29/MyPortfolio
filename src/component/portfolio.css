@@ -69,3 +69,24 @@
   font-weight: 800;
   font-size: 18px;
 }
+
+/* Contact me  */
+
+.contactCon {
+  padding: 20px;
+}
+.contactHeading {
+  text-align: center;
+}
+.contacts {
+  opacity: 0.6;
+}
+.letWork {
+  text-align: center;
+  margin-top: 100px;
+}
+.copyright {
+  opacity: 0.6;
+  margin-top: 50;
+  text-align: center;
+}
