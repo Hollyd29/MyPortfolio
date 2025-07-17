@@ -27,6 +27,7 @@
 .headerIcon:hover {
   color: #0062ff;
 }
+/* profile page */
 .profileCon {
   padding: 20px;
 }
@@ -53,4 +54,18 @@
   width: 100%;
   height: 100%;
   border-radius: 10px;
+}
+/* My Story page*/
+
+.storyCon {
+  padding: 20px;
+  background-color: #b0e0feff;
+}
+.storyColorText {
+  font-weight: 800;
+  color: #0062ff;
+}
+.boldText {
+  font-weight: 800;
+  font-size: 18px;
 }
