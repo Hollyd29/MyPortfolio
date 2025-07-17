@@ -1,5 +1,7 @@
 import "./App.css";
-import HeaderComp from "./component/headercomp";
+import ContactMeComp from "./component/ContactMecomp";
+import HeaderComp from "./component/Headercomp";
+
 import MyStoryComp from "./component/MyStorycomp";
 import Profilecomp from "./component/Profilecomp";
 
@@ -9,6 +11,7 @@ function App() {
       <HeaderComp />
       <Profilecomp />
       <MyStoryComp />
+      <ContactMeComp />
     </div>
   );
 }
