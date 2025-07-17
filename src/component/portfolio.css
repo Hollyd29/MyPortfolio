@@ -1,0 +1,29 @@
+.headerCon {
+  background-color: #b0e0feff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  border-bottom: 1px solid #80808099;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  margin-left: 20px;
+  padding: -10px;
+  color: #0062ff;
+  font-size: 30px;
+  /* line-height: 1; */
+}
+.iconCon {
+  margin-right: 20px;
+}
+.headerIcon {
+  font-size: 30px;
+}
+.headerIcon:hover {
+  color: #0062ff;
+}
