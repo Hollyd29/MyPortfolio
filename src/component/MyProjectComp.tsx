@@ -44,16 +44,16 @@ function MyProjectComp() {
             src={each.video}
             controls
             autoPlay
-            // loop
+            loop
             muted
             playsInline
           ></video>
-          <p>{each.about}</p>
-          <p>
+          <p className="pra">{each.about}</p>
+          <p className="pra">
             {" "}
             <span style={{ fontWeight: 800 }}>Stack/Tools:</span> {each.tools}
           </p>
-          <p>Github available upon request</p>
+          <p className="pra">Github available upon request</p>
         </div>
       ))}
     </div>
