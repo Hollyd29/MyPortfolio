@@ -1,3 +1,6 @@
+// import minimag from "../assets/projects/minimag.mp4";
+import comfiable from "../assets/projects/confiable-Home.mp4";
+
 function MyProjectComp() {
   return (
     <div>
@@ -7,7 +10,7 @@ function MyProjectComp() {
       </div>
       <div>
         <h2>Comfiable Home</h2>
-        <video src=""></video>
+        <video className="comfiable-Vid" src={comfiable}></video>
       </div>
     </div>
   );
