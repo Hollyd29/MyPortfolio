@@ -30,7 +30,7 @@ function MyProjectComp() {
 
   return (
     <div className="projectCon">
-      <div>
+      <div className="myProject">
         <h1>MY PROJECT</h1>
         <p>Each one is unique, check them out.</p>
       </div>
