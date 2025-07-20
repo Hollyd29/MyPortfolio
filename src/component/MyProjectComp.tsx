@@ -35,7 +35,7 @@ function MyProjectComp() {
         <p>Each one is unique, check them out.</p>
       </div>
       {data.map((each, index) => (
-        <div key={index}>
+        <div key={index} className="eachProject">
           <h2>
             {each.id}. {each.title}
           </h2>

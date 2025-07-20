@@ -87,7 +87,7 @@
 }
 .copyright {
   opacity: 0.6;
-  margin-top: 50;
+  margin-top: 50px;
   text-align: center;
 }
 .projectCon {
@@ -98,6 +98,10 @@
 .myProject {
   font-size: 30;
   line-height: 0.5;
+  margin-bottom: 30px;
+}
+.eachProject {
+  margin-top: 50px;
 }
 .video {
   width: 300px;
