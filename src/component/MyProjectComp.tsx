@@ -29,7 +29,7 @@ function MyProjectComp() {
   //   const [project, setProject] = useState(data)
 
   return (
-    <div style={{ backgroundColor: "black", color: "#ffffff", padding: 20 }}>
+    <div className="projectCon">
       <div>
         <h1>MY PROJECT</h1>
         <p>Each one is unique, check them out.</p>
