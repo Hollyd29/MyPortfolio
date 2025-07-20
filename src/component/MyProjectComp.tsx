@@ -9,20 +9,16 @@ function MyProjectComp() {
         <p>Each one is unique, check them out.</p>
       </div>
       <div>
-        <h2>Comfiable Home</h2>
-        <div
-          style={{ display: "flex", alignItems: "center", textAlign: "center" }}
-        >
-          <video
-            className="comfiable-Vid"
-            src={comfiable}
-            controls
-            autoPlay
-            loop
-            muted
-            playsInline
-          ></video>
-        </div>
+        <h2>1. Comfiable Home</h2>
+        <video
+          className="comfiable-Vid"
+          src={comfiable}
+          controls
+          autoPlay
+          // loop
+          muted
+          playsInline
+        ></video>
       </div>
     </div>
   );
