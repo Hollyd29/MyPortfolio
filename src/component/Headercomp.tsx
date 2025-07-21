@@ -1,9 +1,10 @@
 import { FaBars } from "react-icons/fa";
+import { MdClose } from "react-icons/md";
 import "./portfolio.css";
 import { useState } from "react";
 
 function HeaderComp() {
-  const [menu, setMenu] = useState<boolean>(false);
+  const [menu, setMenu] = useState<boolean>(true);
 
   return (
     <>
@@ -11,20 +12,16 @@ function HeaderComp() {
         <div>
           <h3 className="logo">PORTFOLIO</h3>
         </div>
-        <div className="iconCon">
+        <button onClick={() => setMenu(true)} className="iconCon">
           <FaBars className="headerIcon" />
-        </div>
+        </button>
       </div>
       {menu && (
-        <div
-          style={{
-            height: "100%",
-            width: "100%",
-            backgroundColor: "black",
-            position: "absolute",
-            top: 0,
-          }}
-        ></div>
+        <div className="menuCon">
+          <button onClick={() => setMenu(false)}>
+            <MdClose color="red" />
+          </button>
+        </div>
       )}
     </>
   );
