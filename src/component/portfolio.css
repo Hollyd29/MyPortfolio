@@ -49,6 +49,14 @@
 .closeIcon:hover {
   transform: rotate(90deg);
 }
+.meetMe {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  opacity: 0.6;
+  margin-bottom: -20px;
+}
 
 /* profile page */
 .profileCon {

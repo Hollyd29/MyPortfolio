@@ -9,11 +9,21 @@ import Profilecomp from "./component/Profilecomp";
 function App() {
   return (
     <div style={{ position: "relative" }}>
-      <HeaderComp />
-      <Profilecomp />
-      <MyStoryComp />
-      <MyProjectComp />
-      <ContactMeComp />
+      <div id="header">
+        <HeaderComp />
+      </div>
+      <div id="profile">
+        <Profilecomp />
+      </div>
+      <div id="myStory">
+        <MyStoryComp />
+      </div>
+      <div id="myProject">
+        <MyProjectComp />
+      </div>
+      <div id="contact">
+        <ContactMeComp />
+      </div>
     </div>
   );
 }

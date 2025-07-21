@@ -25,8 +25,9 @@ function HeaderComp() {
           <div>
             <div className="meetMe">
               <h1>Meet Me</h1>
-              <FaHandshake color="#f6ff00ff" size={50} />
+              <FaHandshake color="#f6ff00ff" size={40} />
             </div>
+            <p onClick={() => alert("i worked")}>My Project</p>
           </div>
         </div>
       )}
