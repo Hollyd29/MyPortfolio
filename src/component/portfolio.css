@@ -20,6 +20,8 @@
 }
 .iconCon {
   margin-right: 20px;
+  border: none;
+  background-color: inherit;
 }
 .headerIcon {
   font-size: 30px;
