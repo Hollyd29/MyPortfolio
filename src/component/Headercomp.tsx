@@ -1,5 +1,6 @@
 import { FaBars } from "react-icons/fa";
 import { MdClose } from "react-icons/md";
+import { FaHandshake } from "react-icons/fa";
 import "./portfolio.css";
 import { useState } from "react";
 
@@ -21,6 +22,12 @@ function HeaderComp() {
           <button onClick={() => setMenu(false)} className="closeCon">
             <MdClose color="red" className="closeIcon" />
           </button>
+          <div>
+            <div className="meetMe">
+              <h1>Meet Me</h1>
+              <FaHandshake color="#f6ff00ff" size={50} />
+            </div>
+          </div>
         </div>
       )}
     </>
