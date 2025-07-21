@@ -43,10 +43,10 @@
 }
 .closeIcon {
   font-size: 30px;
-  transition: transform 1s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
 .closeIcon:hover {
-  transform: rotate(360deg);
+  transform: rotate(90deg);
 }
 
 /* profile page */
