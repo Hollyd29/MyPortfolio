@@ -18,8 +18,8 @@ function HeaderComp() {
       </div>
       {menu && (
         <div className="menuCon">
-          <button onClick={() => setMenu(false)}>
-            <MdClose color="red" />
+          <button onClick={() => setMenu(false)} className="closeCon">
+            <MdClose color="red" className="closeIcon" />
           </button>
         </div>
       )}

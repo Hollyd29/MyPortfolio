@@ -35,6 +35,18 @@
   background-color: #2d2d2dff;
   position: absolute;
   top: 0;
+  padding: 20px;
+}
+.closeCon {
+  background-color: inherit;
+  border: none;
+}
+.closeIcon {
+  font-size: 30px;
+  transition: transform 1s ease-in-out;
+}
+.closeIcon:hover {
+  transform: rotate(360deg);
 }
 
 /* profile page */
