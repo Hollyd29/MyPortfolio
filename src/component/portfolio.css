@@ -81,10 +81,18 @@
 .line {
   border: 1px solid white;
 }
+.linksCon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
 a {
   color: #ffffff;
   text-decoration: none;
   line-height: 0;
+  border: 0.5px solid red;
 }
 .contactIcon {
   font-size: 25px;
@@ -94,14 +102,7 @@ a p {
   border: 0.5px solid #717171;
   padding: 10px 5px;
   width: fit-content;
-  /* display: none; */
-  /* visibility: hidden; */
-  transition: 1s;
-}
-a p:hover {
-  /* display: grid; */
-  /* visibility: visible; */
-  padding-left: 20px;
+  display: none;
 }
 
 /* profile page */

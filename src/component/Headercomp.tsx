@@ -67,7 +67,7 @@ function HeaderComp() {
               <h2>Got an idea?</h2>
               <p>Let's talk</p>
             </div>
-            <div>
+            <div className="linksCon">
               <a href="https://github.com/Hollyd29">
                 <FaGithub className="contactIcon" />
                 <p>My GitHub</p>
