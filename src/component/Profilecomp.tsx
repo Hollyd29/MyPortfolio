@@ -6,9 +6,8 @@ function Profilecomp() {
       <h1 className="name">Oladimeji .E.O.</h1>
       <div className="aboutmeCon">
         <p className="aboutMe">
-          I am a{" "}
-          <span className="colorText">professional mobile app developer</span>{" "}
-          with strong expertise in{" "}
+          I am a <span className="colorText"> mobile app developer</span> with
+          strong expertise in{" "}
           <span className="colorText">React Native and TypeScript</span> .{" "}
           <p>
             {" "}
@@ -30,15 +29,15 @@ function Profilecomp() {
         </div>
       </div>
       <div className="center">
-        <h2>A Developer with curious mind.</h2>
+        <h2>Passionate Mobile App Developer with curious mind.</h2>
         <p>
-          I develop high quality human centered products with outstanding
-          digital experience.
+          Specialized in crafting responsive and scalable apps with React Native
+          and TypeScript, focused on performance and usability.
         </p>
         <h2 style={{ marginTop: 80 }}>I understand the language of the App.</h2>
         <p>
-          With this understanding, I provide strategic solution for the user
-          experience.
+          This deep understanding allows me to create purposeful, user-friendly
+          experiences that solve real problems.
         </p>
       </div>
     </div>

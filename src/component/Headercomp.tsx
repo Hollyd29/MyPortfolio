@@ -36,7 +36,7 @@ function HeaderComp() {
     <>
       <div className="headerCon">
         <div>
-          <h3 className="logo">PORTFOLIO</h3>
+          <h3 className="logo">Oladimeji</h3>
         </div>
         <button onClick={() => setMenu(true)} className="iconCon">
           <FaBars className="headerIcon" />

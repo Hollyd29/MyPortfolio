@@ -20,7 +20,7 @@ function ContactMeComp() {
         <h3>Want me to work for you or with you?</h3>
         <p>Let's connect! 👍</p>
       </div>
-      <p className="copyright">Copyright - Oladimeji E.O 2025</p>
+      <p className="copyright">Copyright - Oladimeji E.O 2024</p>
     </div>
   );
 }

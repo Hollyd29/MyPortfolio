@@ -9,18 +9,17 @@ function MyProjectComp() {
       title: "Comfiable Home",
       video: comfiable,
       about:
-        "ComfiableHomes is an e-commerce web app that allows visitors of the web app to check all available products, filter by brand, price, category, etc. It also allows visitors to add products to cart and check the aggregate amount. Cart can also be cleared.",
-      tools:
-        " React Native, Typescript, CSS, Context API, Express.js(for Backend), MongoDB (DB Management), Git",
+        "ComfiableHomes is an e-commerce application with a colaboration of backend developer that allows visitors of the web app to check all available products, filter by brand, price, category, etc. It also allows visitors to add products to cart and check the aggregate amount. Cart can also be cleared.",
+      tools: " React Native, CSS, Context API, Styled-components, Git",
     },
     {
       id: "2",
       title: "Minimag",
       video: minimag,
       about:
-        "Minimag is a URL shortener web based application that helps to shorten and customize URLs, and provides QR Codes for respective shortened or customized URLs. Minimag also has a database management system where previously shortened or customized URLs can be viewed and regenerate new QR Codes for. You can demo this application before deciding to sign up.",
+        "Minimag is a URL shortener application that helps to shorten and customize URLs, and provides QR Codes for respective shortened or customized URLs. Minimag also has a database management system where previously shortened or customized URLs can be viewed and regenerate new QR Codes for. You can demo this application before deciding to sign up.",
       tools:
-        " React Native, Styled-components, TailwindCSS, Express.js(for Backend), MongoDB (DB Management), Git",
+        " React Native, Typescript, CSS, Context API, Styled-components, Git",
     },
   ];
 
