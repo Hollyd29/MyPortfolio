@@ -41,7 +41,7 @@ function HeaderComp() {
           <button onClick={() => setMenu(false)} className="closeCon">
             <MdClose color="red" className="closeIcon" />
           </button>
-          <div>
+          <div style={{ marginInline: "auto", width: "60%" }}>
             <div className="meetMe">
               <h1>Meet Me</h1>
               <FaHandshake color="#f6ff00ff" size={40} />
@@ -49,18 +49,13 @@ function HeaderComp() {
             <p className="pp" onClick={() => handleScroll("project")}>
               My Project
             </p>
-            <p
-              style={{ cursor: "pointer" }}
-              onClick={() => handleScroll("about")}
-            >
+            <p className="pp" onClick={() => handleScroll("about")}>
               About Me
             </p>
-            <p
-              style={{ cursor: "pointer" }}
-              onClick={() => handleScroll("contact")}
-            >
+            <p className="pp" onClick={() => handleScroll("contact")}>
               Contact Me
             </p>
+            <p className="pp">My Resume</p>
           </div>
         </div>
       )}

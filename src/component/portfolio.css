@@ -55,7 +55,8 @@
 }
 .closeIcon {
   font-size: 30px;
-  transition: transform 0.5s ease-in-out;
+  transition: 40s;
+  /* transition: transform 0.5s ease-in-out; */
 }
 .closeIcon:hover {
   transform: rotate(90deg);
@@ -74,6 +75,7 @@
 }
 .pp:hover {
   margin-left: 5px;
+  font-weight: 600;
   text-decoration: underline;
 }
 
