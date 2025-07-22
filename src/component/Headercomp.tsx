@@ -7,11 +7,22 @@ import { useState } from "react";
 function HeaderComp() {
   const [menu, setMenu] = useState<boolean>(true);
 
-  const goToMyProject = () => {
+  const handleScroll = (screen: string) => {
     const project = document.getElementById("myProject");
-    if (project) {
+    const about = document.getElementById("myStory");
+    const contact = document.getElementById("contact");
+
+    if (screen === "project" && project) {
       setMenu(false);
       project.scrollIntoView({ behavior: "smooth" });
+    }
+    if (screen === "about" && about) {
+      setMenu(false);
+      about.scrollIntoView({ behavior: "smooth" });
+    }
+    if (screen === "contact" && contact) {
+      setMenu(false);
+      contact.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -35,8 +46,23 @@ function HeaderComp() {
               <h1>Meet Me</h1>
               <FaHandshake color="#f6ff00ff" size={40} />
             </div>
-            <p style={{ cursor: "pointer" }} onClick={goToMyProject}>
+            <p
+              style={{ cursor: "pointer" }}
+              onClick={() => handleScroll("project")}
+            >
               My Project
+            </p>
+            <p
+              style={{ cursor: "pointer" }}
+              onClick={() => handleScroll("about")}
+            >
+              About Me
+            </p>
+            <p
+              style={{ cursor: "pointer" }}
+              onClick={() => handleScroll("contact")}
+            >
+              Contact Me
             </p>
           </div>
         </div>

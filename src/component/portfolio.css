@@ -1,3 +1,12 @@
+#myProject {
+  scroll-margin-top: 95px;
+}
+#myStory {
+  scroll-margin-top: 95px;
+}
+#contact {
+  scroll-margin-top: 95px;
+}
 .headerCon {
   background-color: #b0e0feff;
   position: fixed;
