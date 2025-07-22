@@ -39,20 +39,25 @@ function MyProjectComp() {
           <h2>
             {each.id}. {each.title}
           </h2>
-          <video
-            className="video"
-            src={each.video}
-            controls
-            autoPlay
-            loop
-            muted
-            playsInline
-          ></video>
-          <p className="pra">{each.about}</p>
-          <p className="pra">
-            {" "}
-            <span style={{ fontWeight: 800 }}>Stack/Tools:</span> {each.tools}
-          </p>
+          <div className="videoCon">
+            <video
+              className="video"
+              src={each.video}
+              controls
+              autoPlay
+              loop
+              muted
+              playsInline
+            ></video>
+            <div className="videoText">
+              <p className="pra">{each.about}</p>
+              <p className="pra">
+                {" "}
+                <span style={{ fontWeight: 800 }}>Stack/Tools:</span>{" "}
+                {each.tools}
+              </p>
+            </div>
+          </div>
           <p className="pra">Github available upon request</p>
         </div>
       ))}

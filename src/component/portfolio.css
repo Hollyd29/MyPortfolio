@@ -197,6 +197,9 @@ a p {
   /* line-height: 1.5; */
 }
 @media screen and (min-width: 800px) {
+  .menuCon {
+    width: 40%;
+  }
   .name {
     font-size: 45px;
   }
@@ -236,5 +239,11 @@ a p {
   }
   .boldText {
     font-size: 25px;
+  }
+  .videoCon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
   }
 }
