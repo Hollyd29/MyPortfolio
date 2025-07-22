@@ -69,19 +69,19 @@ function HeaderComp() {
             </div>
             <div>
               <a href="https://github.com/Hollyd29">
-                <FaGithub />
+                <FaGithub className="contactIcon" />
                 <p>My GitHub</p>
               </a>
               <a href="https://www.linkedin.com/in/oladimeji-olapeju-aab2b5374/">
-                <FaLinkedin />
+                <FaLinkedin className="contactIcon" />
                 <p>My Linkedin Profile</p>
               </a>
               <a href="mailto:olapejuoladimeji30@gmail.com">
-                <IoMdMail />
+                <IoMdMail className="contactIcon" />
                 <p>E-mail Me</p>
               </a>
               <a href="tel:+447443010680">
-                <MdAddIcCall />
+                <MdAddIcCall className="contactIcon" />
                 <p>Call Me</p>
               </a>
               <a
@@ -89,7 +89,7 @@ function HeaderComp() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <IoLogoWhatsapp />
+                <IoLogoWhatsapp className="contactIcon" />
                 <p>Whatsapp Me</p>
               </a>
             </div>

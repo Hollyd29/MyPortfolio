@@ -81,6 +81,28 @@
 .line {
   border: 1px solid white;
 }
+a {
+  color: #ffffff;
+  text-decoration: none;
+  line-height: 0;
+}
+.contactIcon {
+  font-size: 25px;
+  opacity: 0.6;
+}
+a p {
+  border: 0.5px solid #717171;
+  padding: 10px 5px;
+  width: fit-content;
+  /* display: none; */
+  /* visibility: hidden; */
+  transition: 1s;
+}
+a p:hover {
+  /* display: grid; */
+  /* visibility: visible; */
+  padding-left: 20px;
+}
 
 /* profile page */
 .profileCon {
