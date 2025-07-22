@@ -29,13 +29,13 @@ function Profilecomp() {
           <img className="img" src={image} alt="" />
         </div>
       </div>
-      <div style={{ textAlign: "center" }}>
+      <div className="center">
         <h2>A Developer with curious mind.</h2>
         <p>
           I develop high quality human centered products with outstanding
           digital experience.
         </p>
-        <h2 style={{ marginTop: 50 }}>I understand the language of the App.</h2>
+        <h2 style={{ marginTop: 80 }}>I understand the language of the App.</h2>
         <p>
           With this understanding, I provide strategic solution for the user
           experience.

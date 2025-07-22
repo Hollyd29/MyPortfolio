@@ -134,6 +134,9 @@ a p {
   height: 100%;
   border-radius: 10px;
 }
+.center {
+  text-align: center;
+}
 /* My Story page*/
 
 .storyCon {
@@ -199,25 +202,26 @@ a p {
   }
   .profileCon {
     padding: 50px;
-    border: 2px solid red;
   }
   .aboutmeCon {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    /* margin-inline: auto; */
-    /* gap: 20%;  */
   }
   .aboutMe {
     width: 40%;
     font-size: 25px;
-    border: 2px solid red;
     margin-left: 30px;
   }
   .imgCon {
     width: 35%;
     height: 500px;
-    border: 2px solid red;
+  }
+  .center h2 {
+    font-size: 30px;
+  }
+  .center p {
+    font-size: 22px;
   }
 }
