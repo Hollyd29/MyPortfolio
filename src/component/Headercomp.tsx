@@ -1,6 +1,9 @@
 import { FaBars } from "react-icons/fa";
 import { MdClose } from "react-icons/md";
 import { FaHandshake } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+
 import "./portfolio.css";
 import { useState } from "react";
 
@@ -56,6 +59,24 @@ function HeaderComp() {
               Contact Me
             </p>
             <p className="pp">My Resume</p>
+            <div className="line"></div>
+            <div style={{ textAlign: "center" }}>
+              <h2>Got an idea?</h2>
+              <p>Let's talk</p>
+            </div>
+            <div>
+              <a href="https://github.com/Hollyd29">
+                <FaGithub />
+                <p>My GitHub</p>
+              </a>
+              <a href="https://www.linkedin.com/in/oladimeji-olapeju-aab2b5374/">
+                <FaLinkedin />
+                <p>My Linkedin Profile</p>
+              </a>
+              <a href=""></a>
+              <a href=""></a>
+              <a href=""></a>
+            </div>
           </div>
         </div>
       )}

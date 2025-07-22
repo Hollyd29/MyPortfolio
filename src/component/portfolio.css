@@ -78,6 +78,9 @@
   font-weight: 600;
   text-decoration: underline;
 }
+.line {
+  border: 1px solid white;
+}
 
 /* profile page */
 .profileCon {
