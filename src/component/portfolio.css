@@ -224,4 +224,17 @@ a p {
   .center p {
     font-size: 22px;
   }
+  .storyInnerCon {
+    width: 80%;
+    margin-inline: auto;
+  }
+  .storyInnerCon h1 {
+    font-size: 45px;
+  }
+  .storyInnerCon p {
+    font-size: 23px;
+  }
+  .boldText {
+    font-size: 25px;
+  }
 }
