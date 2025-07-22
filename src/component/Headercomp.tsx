@@ -3,6 +3,9 @@ import { MdClose } from "react-icons/md";
 import { FaHandshake } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { IoMdMail } from "react-icons/io";
+import { MdAddIcCall } from "react-icons/md";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 import "./portfolio.css";
 import { useState } from "react";
@@ -73,9 +76,22 @@ function HeaderComp() {
                 <FaLinkedin />
                 <p>My Linkedin Profile</p>
               </a>
-              <a href=""></a>
-              <a href=""></a>
-              <a href=""></a>
+              <a href="mailto:olapejuoladimeji30@gmail.com">
+                <IoMdMail />
+                <p>E-mail Me</p>
+              </a>
+              <a href="tel:+447443010680">
+                <MdAddIcCall />
+                <p>Call Me</p>
+              </a>
+              <a
+                href="https://wa.me/447443010680"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <IoLogoWhatsapp />
+                <p>Whatsapp Me</p>
+              </a>
             </div>
           </div>
         </div>
