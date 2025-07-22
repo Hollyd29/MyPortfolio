@@ -160,6 +160,9 @@ a p {
 .contactHeading {
   text-align: center;
 }
+.cHeadP {
+  margin-bottom: 50px;
+}
 .contacts {
   opacity: 0.6;
 }
@@ -269,5 +272,9 @@ a p {
   }
   .pra {
     font-size: 23px;
+  }
+  .cHeadP {
+    width: 80%;
+    /* margin-inline: auto; */
   }
 }
