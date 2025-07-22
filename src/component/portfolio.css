@@ -37,6 +37,8 @@
   top: 0;
   padding: 20px;
   color: #ffffff;
+  position: fixed;
+  z-index: 1000;
 }
 .closeCon {
   background-color: inherit;

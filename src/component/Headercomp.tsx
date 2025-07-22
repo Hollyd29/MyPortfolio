@@ -7,6 +7,14 @@ import { useState } from "react";
 function HeaderComp() {
   const [menu, setMenu] = useState<boolean>(true);
 
+  const goToMyProject = () => {
+    const project = document.getElementById("myProject");
+    if (project) {
+      setMenu(false);
+      project.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <>
       <div className="headerCon">
@@ -27,7 +35,9 @@ function HeaderComp() {
               <h1>Meet Me</h1>
               <FaHandshake color="#f6ff00ff" size={40} />
             </div>
-            <p onClick={() => alert("i worked")}>My Project</p>
+            <p style={{ cursor: "pointer" }} onClick={goToMyProject}>
+              My Project
+            </p>
           </div>
         </div>
       )}
