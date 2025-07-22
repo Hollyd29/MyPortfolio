@@ -11,7 +11,7 @@ import "./portfolio.css";
 import { useState } from "react";
 
 function HeaderComp() {
-  const [menu, setMenu] = useState<boolean>(true);
+  const [menu, setMenu] = useState<boolean>(false);
 
   const handleScroll = (screen: string) => {
     const project = document.getElementById("myProject");

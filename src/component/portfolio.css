@@ -92,7 +92,7 @@ a {
   color: #ffffff;
   text-decoration: none;
   line-height: 0;
-  border: 0.5px solid red;
+  /* border: 0.5px solid red; */
 }
 .contactIcon {
   font-size: 25px;
@@ -114,6 +114,7 @@ a p {
   text-align: center;
 }
 .aboutMe {
+  width: 100%;
   text-align: center;
   font-size: 18px;
 }
@@ -191,4 +192,32 @@ a p {
 .pra {
   font-size: 17px;
   /* line-height: 1.5; */
+}
+@media screen and (min-width: 800px) {
+  .name {
+    font-size: 45px;
+  }
+  .profileCon {
+    padding: 50px;
+    border: 2px solid red;
+  }
+  .aboutmeCon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-inline: auto; */
+    /* gap: 20%;  */
+  }
+  .aboutMe {
+    width: 40%;
+    font-size: 25px;
+    border: 2px solid red;
+    margin-left: 30px;
+  }
+  .imgCon {
+    width: 35%;
+    height: 500px;
+    border: 2px solid red;
+  }
 }
