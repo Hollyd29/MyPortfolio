@@ -186,7 +186,7 @@ a p {
   margin-top: 50px;
 }
 .video {
-  width: 300px;
+  width: 100%;
   height: 600px;
   border-radius: 5%;
   /* margin-left: 20px; */
@@ -240,10 +240,34 @@ a p {
   .boldText {
     font-size: 25px;
   }
+  .projectCon {
+    padding: 70px;
+  }
+  .myProject h1 {
+    font-size: 45px;
+  }
+  .myProject p {
+    font-size: 22px;
+  }
   .videoCon {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    align-items: unset;
+    /* justify-content: space-between; */
+    gap: 10%;
+  }
+  .video {
+    width: 40%;
+  }
+  .videoText {
+    width: 45%;
+    /* font-size: 23px; */
+  }
+  .eachProject h2 {
+    font-size: 35px;
+    margin-top: 100px;
+  }
+  .pra {
+    font-size: 23px;
   }
 }
