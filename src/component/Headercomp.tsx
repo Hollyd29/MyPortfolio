@@ -46,10 +46,7 @@ function HeaderComp() {
               <h1>Meet Me</h1>
               <FaHandshake color="#f6ff00ff" size={40} />
             </div>
-            <p
-              style={{ cursor: "pointer" }}
-              onClick={() => handleScroll("project")}
-            >
+            <p className="pp" onClick={() => handleScroll("project")}>
               My Project
             </p>
             <p
