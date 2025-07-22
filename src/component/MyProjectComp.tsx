@@ -1,6 +1,7 @@
 import minimag from "../assets/projects/minimag.mp4";
 import comfiable from "../assets/projects/confiable-Home.mp4";
 import type { ProjectProp } from "../type/project.type";
+import { useRef } from "react";
 
 function MyProjectComp() {
   const data: ProjectProp[] = [
@@ -23,9 +24,21 @@ function MyProjectComp() {
     },
   ];
 
-  console.log(data);
+  const refs = useRef<HTMLVideoElement[]>([]);
 
-  //   const [project, setProject] = useState(data)
+  const handleLoadedMetadata = (index: number) => {
+    const video = refs.current[index];
+    if (video) {
+      video.currentTime = 2;
+    }
+  };
+
+  const handleEnded = (index: number) => {
+    const video = refs.current[index];
+    if (video) {
+      video.currentTime = 2;
+    }
+  };
 
   return (
     <div className="projectCon">
@@ -41,12 +54,15 @@ function MyProjectComp() {
           <div className="videoCon">
             <video
               className="video"
+              key={each.id}
+              ref={(el) => {
+                if (el) refs.current[index] = el;
+              }}
               src={each.video}
               controls
-              autoPlay
-              loop
-              muted
               playsInline
+              onLoadedMetadata={() => handleLoadedMetadata(index)}
+              onEnded={() => handleEnded(index)}
             ></video>
             <div className="videoText">
               <p className="pra">{each.about}</p>
