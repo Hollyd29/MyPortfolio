@@ -7,21 +7,24 @@ function MyStoryComp() {
         </h1>
 
         <p>
-          My name is <span className="storyColorText">Oladimeji</span> , a
-          curious and passionate{" "}
-          <span className="storyColorText">Software Developer</span> who enjoys
-          converting imaginations and ideas into real life products and building
-          solutions that run on the internet. I have been coding consistently in{" "}
+          Hey there! I’m <span className="storyColorText">Oladimeji</span> ,a
+          developer who lives to{" "}
           <span className="storyColorText">
-            JavaScript, TypeScript, and technologies
+            turn imagination into innovation
           </span>{" "}
-          around them for over <span className="storyColorText">3 years</span> .
-          I have used these technologies to build fully blown applications like{" "}
+          . With over <span className="storyColorText">3 years </span>
+          of experience coding in{" "}
           <span className="storyColorText">
-            E-commerce Application, Url-customization Application and I will be
-            working Booking Application like Uber
+            JavaScript, React, TypeScript, and React Native
           </span>
-          .
+          . I specialize in building interactive, high-performance mobile apps
+          and website. So far, I’ve launched fully functional apps like an{" "}
+          <span className="storyColorText">
+            E-commerce store, a custom URL shortener
+          </span>
+          , and I’m now gearing up to develop a{" "}
+          <span className="storyColorText">ride-booking app</span> — think Uber,
+          but better.
         </p>
         <p>
           One thing I like to do is completing projects. I strive hard to
